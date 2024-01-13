@@ -129,7 +129,7 @@ Sementara itu, Collaborative Filtering, baik user-based maupun item-based, menge
 
     Term Frequency (TF) adalah frekuensi suatu kata dalam dokumen. Rumusnya adalah:
 
-    $$ TF(t, d) = \frac{f_{t, d}}{\sum_{t' \in d} f_{t', d}} $$
+    $$TF(t, d) = \frac{f_{t, d}}{\sum_{t' \in d} f_{t', d}}$$
 
     di mana:
     - $f_{t, d}$ adalah frekuensi kata $t$ dalam dokumen $d$
@@ -137,7 +137,7 @@ Sementara itu, Collaborative Filtering, baik user-based maupun item-based, menge
     
     Inverse Document Frequency (IDF) adalah ukuran seberapa jarang suatu kata muncul di seluruh dokumen. Rumusnya adalah:
 
-    $$ IDF(t, D) = \log \frac{N}{|{d \in D : t \in d}|} $$
+    $$IDF(t, D) = \log \frac{N}{|{d \in D : t \in d}|}$$
 
     di mana:
     - $N$ adalah jumlah total dokumen
@@ -145,7 +145,7 @@ Sementara itu, Collaborative Filtering, baik user-based maupun item-based, menge
     
     TF-IDF kemudian dihitung dengan mengalikan TF dan IDF:
 
-    $$ TFIDF(t, d, D) = TF(t, d) \times IDF(t, D) $$
+    $$TFIDF(t, d, D) = TF(t, d) \times IDF(t, D)$$
    
 
 3.  Mengubah Matriks menjadi Dense
