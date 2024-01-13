@@ -146,12 +146,13 @@ Sementara itu, Collaborative Filtering, baik user-based maupun item-based, menge
     TF-IDF kemudian dihitung dengan mengalikan TF dan IDF:
 
     $$ TFIDF(t, d, D) = TF(t, d) \times IDF(t, D) $$
+   
 
-2.  Mengubah Matriks menjadi Dense
+3.  Mengubah Matriks menjadi Dense
 
     Setelah mendapatkan matriks _TF-IDF_, kemudian mengubah matriks tersebut menjadi format _dense_ agar dapat diinterpretasikan dengan mudah. Proses ini dilakukan dengan menggunakan fungsi `todense()`.
 
-3. Menghitung Derajat Kesamaan (Cosine Similarity)
+4. Menghitung Derajat Kesamaan (Cosine Similarity)
     
     Langkah selanjutnya adalah menghitung derajat kesamaan antara film menggunakan metode _Cosine Similarity_.
     $$\text{Cosine Similarity}(A, B) = \frac{A \cdot B}{||A|| ||B||} = \frac{\sum_{i=1}^{n} A_i B_i}{\sqrt{\sum_{i=1}^{n} A_i^2} \sqrt{\sum_{i=1}^{n} B_i^2}}$$
@@ -159,7 +160,7 @@ Sementara itu, Collaborative Filtering, baik user-based maupun item-based, menge
     - $A . B$ adalah jumlah total dokumen
     - $||A||$ dan $||B||$ adalah jumlah dokumen yang mengandung kata $t$
 
-4. Hasil
+5. Hasil
 
     | No. | Judul Film | Genre |
     | --- | --- | --- |
