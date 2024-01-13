@@ -250,7 +250,7 @@ Skor precision sistem rekomendasi untuk film _Pulp Fiction (1994)_ adalah sebesa
 
 Metrik evaluasi yang digunakan adalah _Root Mean Squared Error_ (RMSE). Tujuan utama dari proses pelatihan model _Collaborative Filtering_ adalah untuk mengajarkan model untuk memahami pola dan hubungan antara pengguna (`userId`), item (`movieId`), dan _rating_ (`rating`) pada dataset pelatihan.  Tujuan menggunakan _RMSE_ adalah untuk mengukur sejauh mana nilai yang diprediksi oleh model berbeda dari nilai yang sebenarnya. _RMSE_ memberikan ukuran absolut dari jarak rata-rata bahwa titik data jatuh dari nilai yang diprediksi menggunakan unit dari variabel dependen1. Nilai _RMSE_ yang rendah menunjukkan bahwa model cocok dengan data dengan baik dan memiliki prediksi yang lebih akurat.
 
-$$RMSE = \sqrt{\fracc{\sum_{i=1}^{n}(P_i - O_i)^2}{n}}$$
+$$RMSE = \sqrt{\frac{\sum_{i=1}^{n} (P_i - O_i)^2}{n}}$$
 
 di mana:
   - $Pi$ adalah nilai yang diprediksi untuk pengamatan ke-i.
