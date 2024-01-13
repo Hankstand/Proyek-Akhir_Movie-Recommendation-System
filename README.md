@@ -240,9 +240,9 @@ Dalam kasus ini, pengguna telah menonton film _Pulp Fiction (1994)_ dengan genre
 
 Dari hasil rekomendasi di atas, semua film yang direkomendasikan memiliki genre yang sama yaitu Comedy|Crime|Drama|Thriller. Dengan demikian, jika mengacu pada formula precision, dapat dihitung sebagai berikut:
 
-$$ Precision = \frac{\text{Jumlah film yang relevan dari rekomendasi model}}{\text{Jumlah total film yang direkomendasikan}} $$
+$$Precision = \frac{\text{Jumlah film yang relevan dari rekomendasi model}}{\text{Jumlah total film yang direkomendasikan}}$$
 
-$ Precision = \frac{5}{5} = 1 $
+$Precision = \frac{5}{5} = 1$
 
 Skor precision sistem rekomendasi untuk film _Pulp Fiction (1994)_ adalah sebesar 1 atau 100%. Hal ini menunjukkan bahwa semua film yang direkomendasikan memiliki genre yang relevan dengan film yang telah ditonton oleh pengguna, menunjukkan kualitas rekomendasi yang baik berdasarkan genre film.
 
